@@ -13,8 +13,8 @@ spec:
     kubernetes.io/hostname: localhost
   volumeMounts:
   - name: workspace-volume
-    mountPath: /home/jenkins/agent
-  workingDir: "/home/jenkins/agent"
+    mountPath: /home/jenkins/testbv-agent
+  workingDir: "/home/jenkins/testbv-agent"
 volumes:
 - name: "workspace-volume"
   persistentVolumeClaim:
